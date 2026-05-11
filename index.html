@@ -119,8 +119,6 @@
       }
 
       .card-image {
-        width: 336px;
-        height: 152px;
         overflow: hidden;
         margin-bottom: var(--spacing-2);
       }
@@ -194,7 +192,13 @@
     <main>
       <div class="card-container">
         <div class="card-image">
-          <img src="./resources/Cactus.jpg" alt="Blog card image" />
+          <img
+            src="./resources/Cactus.jpg"
+            alt="Blog card image"
+            width="336"
+            height="152"
+            loading="eager"
+          />
         </div>
         <span class="card-tag">Design</span>
         <h1 class="card-title">Embracing Minimalism</h1>
